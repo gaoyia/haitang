@@ -5,6 +5,7 @@ export default (pageContext) => {
     return { routeParams: { view: 'index' } }
   }
   const result = resolveRoute('/@view', pageContext.urlPathname)
+  console.log(result);
   if (!result.match) {
     return false
   }
