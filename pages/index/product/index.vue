@@ -1,5 +1,6 @@
 <template>
   <SubBanner :cover-src="'/assets/img/subBanner3.jpg'" :title="'产品中心'" />
+    <SubNav/>
 
   <div class="ht-product animsition">
     <div class="container">
@@ -25,6 +26,7 @@
 
 <script setup lang="ts">
 import SubBanner from '../components/SubBanner.vue'
+import SubNav from '../components/SubNav/index.vue'
 import ProductCard from '../components/ProductCard.vue';
 
 </script>

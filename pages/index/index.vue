@@ -20,6 +20,13 @@ import News from './news/index.vue'
 import { isBrowser, usePageContext } from '../../renderer/usePageContext';
 const pageContext = usePageContext()
 const view = pageContext.routeParams?.view
+// if (!view) {
+//   pageContext
+// }
+pageContext.exports.documentProps = {
+  title: '11111',
+  description: '33333'
+}
 </script>
 <style scoped>
 .ht-content {
