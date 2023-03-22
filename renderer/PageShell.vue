@@ -9,6 +9,7 @@
 </template>
 
 <script lang="ts" setup>
+import 'normalize.css'
 import { isBrowser, usePageContext } from '../renderer/usePageContext';
 const pageContext = usePageContext()
 </script>
